@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,400;1,600;1,700&display=swap");
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 30px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  z-index: 2;
+  background: transparent;
+}
+
+header .navigation {
+  position: relative;
+
+  display: flex;
+}
+
+header .navigation li {
+  list-style: none;
+}
+
+header .navigation li a {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  display: inline-block;
+  color: hsl(0, 0%, 9%);
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 25px;
+  position: relative;
+  padding: 1rem 0;
+}
+
+/* header .navigation li a:hover {
+  display: inline-block;
+  background-color: transparent;
+} */
+header .navigation li a::before,
+header .navigation li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(12, 12, 12);
+  left: 0;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+
+header .navigation li a::before {
+  top: 0;
+  transform-origin: left;
+}
+
+header .navigation li a::after {
+  bottom: 0;
+  transform-origin: right;
+}
+header .skv {
+  /* position: absolute; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+
+  color: #000000;
+}
+.btn {
+  background: #116466;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 0px;
+
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 1px solid #116466;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #116466;
+}
+header .navigation li a:hover {
+  color: #116466;
+}
+
+/* .textBox {
+  position: relative;
+  top: -300px;
+  left: -64px;
+} */
+
+@media (max-width: 441px) {
+  header .navigation {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #116466;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding-right: 60px;
+  }
+  header .navigation.active li {
+    margin: 20px 0;
+  }
+  header .navigation.active li a {
+    font-size: 15px;
+    right: 33px;
+  }
+  header .navigation.active li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .toggle {
+    width: 30px;
+    height: 30px;
+    background: url("menu.png");
+    filter: invert(1);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000;
+    transition: 0.3s;
+  }
+
+  .toggle.active {
+    top: 27px;
+    right: 294px;
+    background: url("close.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 860px) {
+  header .navigation {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+
+  header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #116466;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding-right: 60px;
+  }
+  header .navigation.active li {
+    margin: 20px 0;
+  }
+  header .navigation.active li a {
+    font-size: 15px;
+    right: -15px;
+  }
+  header .navigation.active li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .toggle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("menu.png");
+    filter: invert(1);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000;
+    transition: 0.3s;
+    right: 20px;
+  }
+
+  .toggle.active {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    background: url("close.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+  }
+}

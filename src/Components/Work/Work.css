@@ -1,0 +1,16 @@
+.work_title {
+  font-size: 30px;
+  color: #116466;
+  text-align: center;
+  text-transform: uppercase;
+}
+.work {
+  /* margin-top: 50px; */
+  padding: 20px 30px;
+  background-color: #fff;
+}
+.work-subtitle {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}

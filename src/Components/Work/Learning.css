@@ -1,0 +1,32 @@
+.learning-card {
+  width: 90%;
+  min-height: 350px;
+  background-color: #116466;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  color: #fff;
+}
+.learning-container {
+  margin-top: 60px;
+}
+iframe {
+  margin: 5px;
+}
+.yt-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+}
+@media (max-width: 770px) {
+  .yt-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+  }
+  .work-heading {
+    font-size: 20px;
+  }
+}
