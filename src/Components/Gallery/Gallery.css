@@ -15,6 +15,11 @@
   justify-content: center;
   padding: 10px 85px;
 }
+@media (max-width: 500px) {
+  .gallery-content {
+    padding: 1%;
+  }
+}
 
 .gallery {
   padding: 1%;

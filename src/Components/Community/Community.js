@@ -1,6 +1,13 @@
 import React from "react";
 import "./Community.scss";
 import { Carousel } from "react-bootstrap";
+import a1 from "../Gallery/images/a1.webp";
+import a2 from "../Gallery/images/a2.webp";
+import a3 from "../Gallery/images/a3.png";
+import a4 from "../Gallery/images/a4.png";
+
+import b1 from "./0001.jpg";
+import b2 from "./0002.jpg";
 
 const Community = () => {
   return (
@@ -42,15 +49,29 @@ const Community = () => {
           <Carousel variant="dark">
             <Carousel.Item>
               <img
-                className="d-block w-100"
-                src="https://images.ctfassets.net/81iqaqpfd8fy/4k9ITW4kDW5liLFiqD36om/d3037a94e6a6bebe4acd06b76d0d88cf/communityservicecover.jpg?h=620&w=1440"
+                className="d-block w-100 slider"
+                src={a1}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbz2n_v5Z6aJl1IoYRCtVjhDGA0Gl8fkVNRA&usqp=CAU"
+                className="d-block w-100 slider"
+                src={a2}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 slider"
+                src={a3}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 slider"
+                src={a4}
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -70,15 +91,15 @@ const Community = () => {
           <Carousel variant="dark">
             <Carousel.Item>
               <img
-                className="d-block w-100"
-                src="https://images.ctfassets.net/81iqaqpfd8fy/4k9ITW4kDW5liLFiqD36om/d3037a94e6a6bebe4acd06b76d0d88cf/communityservicecover.jpg?h=620&w=1440"
+                className="d-block w-100 slider"
+                src={b1}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="d-block w-100"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbz2n_v5Z6aJl1IoYRCtVjhDGA0Gl8fkVNRA&usqp=CAU"
+                className="d-block w-100 slider"
+                src={b2}
                 alt="Third slide"
               />
             </Carousel.Item>
