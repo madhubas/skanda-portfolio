@@ -6,8 +6,8 @@ import Intern from "./Components/Intern/Intern";
 import Community from "./Components/Community/Community";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-import Gallery from "./Components/Gallery/Gallery";
 import Work from "./Components/Work/Work";
+import Theatre from "./Components/Theatre/Theatre";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Community />
       <Research />
       <Intern />
-      <Gallery />
+      <Theatre />
       <Work />
       <Footer />
     </div>

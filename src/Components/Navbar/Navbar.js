@@ -62,7 +62,7 @@ const Navbar = () => {
               </a>{" "}
             </li>
           </ul>
-          <button className="btn">RESUME</button>
+          <button className="btn">Resume</button>
           <div className="toggle" onClick={toggleMenu}></div>
         </header>
       </div>

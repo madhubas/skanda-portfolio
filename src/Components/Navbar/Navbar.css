@@ -30,7 +30,7 @@ header .navigation li a {
   color: hsl(0, 0%, 9%);
   font-weight: 700;
   font-size: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   align-items: center;
   margin-left: 25px;

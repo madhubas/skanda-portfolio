@@ -1,10 +1,8 @@
 import React from "react";
 import "./Community.scss";
 import { Carousel } from "react-bootstrap";
-import a1 from "../Gallery/images/a1.webp";
-import a2 from "../Gallery/images/a2.webp";
-import a3 from "../Gallery/images/a3.png";
-import a4 from "../Gallery/images/a4.png";
+import a1 from "./hindu.jpeg";
+import a2 from "./vhs.jpeg";
 
 import b1 from "./0001.jpg";
 import b2 from "./0002.jpg";
@@ -45,7 +43,7 @@ const Community = () => {
           <br />
           <b> Total Number of hours : More than 150 hours</b>
         </div>
-        <div className="community-first__carousel">
+        <div className="community-first__carousel box-shadow">
           <Carousel variant="dark">
             <Carousel.Item>
               <img
@@ -61,20 +59,6 @@ const Community = () => {
                 alt="Third slide"
               />
             </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 slider"
-                src={a3}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 slider"
-                src={a4}
-                alt="Third slide"
-              />
-            </Carousel.Item>
           </Carousel>
         </div>
       </div>
@@ -87,8 +71,8 @@ const Community = () => {
       </div>
 
       <div className="community-second">
-        <div className="community-second__carousel">
-          <Carousel variant="dark">
+        <div className="community-second__carousel box-shadow">
+          <Carousel variant="dark" className="box-shadow">
             <Carousel.Item>
               <img
                 className="d-block w-100 slider"

@@ -1,14 +1,17 @@
 import React from "react";
 import "./intern.scss";
+import tye from "./tieentre.jpg";
 const Intern = () => {
   return (
     <div className="intern" id="internship">
-      <div className="intern-heading">
-        <span className="intern-heading__line"></span>
-        <div className="intern-heading__text">
-          <p>INTERNSHIP</p>
-          <p>(FROM 2019 - PRESENT)</p>
+      <div className="about-heading">
+        <div className="about-heading__text" style={{ color: "#000" }}>
+          Intern (From 2019 To Present)
         </div>
+        <span
+          className="about-heading__line"
+          style={{ backgroundColor: "#000" }}
+        ></span>
       </div>
       <div className="intern-content">
         <div className="intern-content-left">
@@ -39,13 +42,16 @@ const Intern = () => {
         </div>
       </div>
       <div className="certificate">
-        <p>
-          Young Entrepreneur Course - TIE india Attended 4 week sessions on
-          Entrepreneurship and Leadership. Brainstormed ideas with the team to
-          develop a business plan . Competed at Regional Level competition to
-          present our business plan. Total Number of hours: 120+ Dec 2020 to Jan
-          2021
+        <p className="tye-content">
+          <span className="text-bold">Young Entrepreneur Course </span>- TIE
+          india Attended 4 week sessions on Entrepreneurship and Leadership.
+          Brainstormed ideas with the team to develop a business plan . Competed
+          at Regional Level competition to present our business plan.
+          <br />
+          <br /> Total Number of hours: 120+ <br />
+          <br /> Dec 2020 to Jan 2021
         </p>
+        <img src={tye} alt="" className="tye-certificate box-shadow" />
       </div>
     </div>
   );

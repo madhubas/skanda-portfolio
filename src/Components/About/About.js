@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-
+import skanda from "./about.jpeg";
 const About = () => {
   return (
     <div className="about" id="about">
@@ -26,12 +26,12 @@ const About = () => {
           about math and science by forcing me to challenge myself, and share
           ideas with friends and teachers. I become peaceful when i am involved
           in one of these - math, soccer, punch boxing, teaching, theater ,
-          robotics and designing games
+          robotics and designing games.
         </div>
         <div className="about-content__image">
           <img
-            className="about-content__image"
-            src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+            className="about-content__image box-shadow"
+            src={skanda}
             alt="skanda"
           />
         </div>

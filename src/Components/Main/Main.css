@@ -27,11 +27,12 @@
 .main-social {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
 
-  position: absolute;
-  right: 0;
-  bottom: 235px;
+  /* position: absolute; */
+  /* right: 0; */
+  /* bottom: 235px; */
   line-height: 64px;
 }
 .main-3,
