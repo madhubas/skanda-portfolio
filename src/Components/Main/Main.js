@@ -7,7 +7,7 @@ import img1 from "./skanda.png";
 function Main() {
   return (
     <div className="main-0">
-      <p className="main-1">HI I'm</p>
+      <p className="main-1">Hi I'm</p>
       <p className="main-2">Skanda Vyas Srinivasan</p>
       <div className="main-social ">
         <a className="main-3 content-anchor">
