@@ -56,14 +56,6 @@ const Research = () => {
           </div>
           <div className="anchors">
             <a
-              href="https://drive.google.com/file/d/1_6xJ0ZN7zahe4YTmyRvRsLOxKeAYP3hQ/view?usp=sharing"
-              target="_blank"
-              className="content-anchor"
-            >
-              Certificate
-            </a>
-
-            <a
               href="https://c5e42103-989a-4674-9a72-290d2851be84.filesusr.com/ugd/fd16df_5a7197d6aa0c47ec8631f2735743ba01.pdf"
               target="_blank"
               className="content-anchor"
