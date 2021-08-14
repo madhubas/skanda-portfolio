@@ -30,3 +30,11 @@ iframe {
     font-size: 20px;
   }
 }
+
+@media (max-width: 530px) {
+  .learning-card {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+}

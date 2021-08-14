@@ -5,8 +5,11 @@ const Intern = () => {
   return (
     <div className="intern" id="internship">
       <div className="about-heading">
-        <div className="about-heading__text" style={{ color: "#000" }}>
-          Intern (From 2019 To Present)
+        <div
+          className="about-heading__text head-intern"
+          style={{ color: "#000" }}
+        >
+          Internship
         </div>
         <span
           className="about-heading__line"

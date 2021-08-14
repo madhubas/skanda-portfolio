@@ -17,18 +17,19 @@ const Research = () => {
           found in the public data set. The background with a special algorithm
           can identify possible diseases with a public data set . This
           particular model can aid with utmost accuracy upto 99% as the
-          validation is done with more than 60K images. Details In 2020, I built
-          a prototype model which aims to identify diseases infected in plants
-          and solve it by comparing it with pre-identified sets of known
-          diseases available in the public domain. ​Research : My involvement
-          included research to collect data from farmers, agriculture
-          institution to learn, understand the issue , analyze , document and
-          identify workable solution among alternates I have collaborated with
-          my mentor , Sandeeep Kumar Ramani, a graduate AI/ML student from
-          University of Wisconsin, Madison to develop a working prototype . I
-          have submitted this proposal to Intel's (Initiative for Research and
-          Innovation in STEM ) (IRIS) IRIS National Science Fair and IIT Bombay
-          Entrepreneurship Programme.
+          validation is done with more than 60K images. ​Research : My
+          involvement included research to collect data from farmers,
+          agriculture institution to learn, understand the issue , analyze ,
+          document and identify workable solution among alternates I have
+          collaborated with my mentor , Sandeeep Kumar Ramani, a graduate AI/ML
+          student from University of Wisconsin, Madison to develop a working
+          prototype .
+          <b>
+            {" "}
+            I have submitted this proposal to Intel's (Initiative for Research
+            and Innovation in STEM ) (IRIS) IRIS National Science Fair and IIT
+            Bombay Entrepreneurship Programme.
+          </b>
         </div>
         <a
           href="https://c5e42103-989a-4674-9a72-290d2851be84.filesusr.com/ugd/fd16df_0949dda33d5142b0ac2d0b6e9c04e655.pdf"
@@ -41,7 +42,7 @@ const Research = () => {
       <div className="research-flex">
         <div className="research-content-2">
           <div className="content-heading">
-            <h1>Aha Guru - IIT JEE Advanced Teaching Institute</h1>
+            Aha Guru - IIT JEE Advanced Teaching Institute
           </div>
           <div className="content">
             From Aug 2019 - present Number of members: 3 Summary: Created
@@ -72,9 +73,7 @@ const Research = () => {
           </div>
         </div>
         <div className="research-content-2">
-          <div className="content-heading">
-            <h1>IIT BOMBAY EUREKA COMPETITION</h1>
-          </div>
+          <div className="content-heading">IIT BOMBAY EUREKA COMPETITION</div>
           <div className="content">
             Submitted Proposal to IIT Bombay's Eureka! Junior competiion, a
             Business-Plan Competition for school students from upto 12th.

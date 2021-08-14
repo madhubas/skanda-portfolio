@@ -3,7 +3,7 @@ import "./Community.scss";
 import { Carousel } from "react-bootstrap";
 import a1 from "./hindu.jpeg";
 import a2 from "./vhs.jpeg";
-
+import n1 from "./newspaper.png";
 import b1 from "./0001.jpg";
 import b2 from "./0002.jpg";
 
@@ -24,9 +24,9 @@ const Community = () => {
       <div className="community-first">
         <div className="community-first__content">
           With the help of the Rotary group, I raised funds of a little over
-          $53,000 as donations for helping Chennai Hospitals with Medical
-          Equipments and Supplies for Covid-19. I have visited hospitals ,
-          collected requirements, built campaigns and worked with donors,
+          <b> $53,000 USD</b> as donations for helping Chennai Hospitals with
+          Medical Equipments and Supplies for Covid-19. I have visited hospitals
+          , collected requirements, built campaigns and worked with donors,
           corporates and vendors to deliver Critical ICU ventilators, Oxy
           Meters, and ICU monitors for managing the critical care during
           Covid-19 Pandemic.
@@ -45,6 +45,14 @@ const Community = () => {
         </div>
         <div className="community-first__carousel box-shadow">
           <Carousel variant="dark">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 slider"
+                src={n1}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+
             <Carousel.Item>
               <img
                 className="d-block w-100 slider"

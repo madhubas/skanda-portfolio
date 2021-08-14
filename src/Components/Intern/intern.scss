@@ -53,6 +53,7 @@
       &-right {
         margin: 10px auto;
         width: 100%;
+        font-size: 15px;
       }
     }
   }
@@ -88,5 +89,19 @@
     .tye-certificate {
       height: auto;
     }
+  }
+}
+@media (max-width: 530px) {
+  .head-intern {
+    font-size: 15px !important;
+  }
+  .intern {
+    padding: 3%;
+  }
+  .tye-content {
+    font-size: 15px;
+  }
+  .certificate {
+    padding: 3% !important;
   }
 }

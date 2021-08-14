@@ -18,8 +18,8 @@ const Navbar = () => {
   var toggleMenu = () => {
     const menuToggle = document.querySelector(".toggle");
     const navigation = document.querySelector(".navigation");
-    // menuToggle.classList.toggle("active");
-    // navigation.classList.toggle("active");
+    menuToggle.classList.toggle("active");
+    navigation.classList.toggle("active");
   };
   return (
     <div>
@@ -30,7 +30,7 @@ const Navbar = () => {
               pos === "top"
                 ? "none"
                 : " 1px 10px 58px -13px rgba(0, 0, 0, 0.75)",
-            backgroundColor: pos === "top" ? "transparent" : "#ffffff",
+            backgroundColor: pos === "top" ? "transparent" : "#000",
           }}
         >
           <p className="skv">SKV</p>

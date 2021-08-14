@@ -144,8 +144,16 @@ $black: #000;
   }
   .research-content-2 {
     width: 100%;
+    padding: 3%;
     .content-heading {
-      font-size: 18px;
+      font-size: 18px !important;
     }
+  }
+  .content-heading {
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+  .content {
+    font-size: 15px !important;
   }
 }

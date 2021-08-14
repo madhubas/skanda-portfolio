@@ -14,3 +14,12 @@
   font-size: 25px;
   text-transform: uppercase;
 }
+
+@media (max-width: 530px) {
+  .work_title {
+    font-size: 20px;
+  }
+  .work-subtitle {
+    font-size: 18px;
+  }
+}
