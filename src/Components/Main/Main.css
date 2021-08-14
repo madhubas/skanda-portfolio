@@ -146,13 +146,12 @@
 @media (max-width: 860px) {
   .main-1 {
     text-align: center;
-
+    top:33% !important;
     font-size: 35px;
   }
   .main-2 {
     text-align: center;
     font-size: 35px;
-    top:33% !important;
   }
   .main-3,
   .main-4,
