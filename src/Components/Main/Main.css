@@ -140,6 +140,10 @@
 @media (max-width: 860px) {
   .main-1 {
     text-align: center;
+<<<<<<< HEAD
+=======
+    top:33% !important;
+>>>>>>> a740b4262fedd071bf14850f48d833fae1b6ee36
     font-size: 35px;
   }
   .main-2 {
