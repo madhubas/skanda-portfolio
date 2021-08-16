@@ -3,7 +3,6 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [pos, setPos] = useState("top");
-
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
       let scrolled = document.scrollingElement.scrollTop;
@@ -61,8 +60,18 @@ const Navbar = () => {
                 Internship
               </a>{" "}
             </li>
+            <li>
+              <a href="#theatre" onClick={toggleMenu}>
+                Theatre and Art
+              </a>{" "}
+            </li>
+            <li>
+              <a href="#knowledge" onClick={toggleMenu}>
+                Knowledge Sharing
+              </a>{" "}
+            </li>
           </ul>
-          <button className="btn">Resume</button>
+          {/* <button className="btn">Resume</button> */}
           <div className="toggle" onClick={toggleMenu}></div>
         </header>
       </div>

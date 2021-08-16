@@ -8,12 +8,14 @@ import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Work from "./Components/Work/Work";
 import Theatre from "./Components/Theatre/Theatre";
+import Landing from "./Components/landing/Landing";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Main />
+      {/* <Main /> */}
+      <Landing />
       <About />
       <Community />
       <Research />

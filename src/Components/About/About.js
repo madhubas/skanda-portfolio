@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import skanda from "./about.jpeg";
+import skanda from "./about.webp";
 const About = () => {
   return (
     <div className="about" id="about">

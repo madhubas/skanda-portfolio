@@ -5,7 +5,16 @@ import { Row, Col } from "react-bootstrap";
 import Learning from "./Learning";
 const Work = () => {
   return (
-    <div className="work">
+    <div className="work" id="knowledge">
+      <div className="about-heading">
+        <div className="about-heading__text" style={{ color: "#000" }}>
+          Knowledge Sharing
+        </div>
+        <span
+          className="about-heading__line"
+          style={{ backgroundColor: "#000" }}
+        ></span>
+      </div>
       <div className="learning-container">
         <h1 className="work_title">
           Skanda Experiential Learning - Math, Physics, Robotics , Drama and

@@ -1,6 +1,6 @@
 import React from "react";
 import "./intern.scss";
-import tye from "./tieentre.jpg";
+import tye from "./tieentre.webp";
 const Intern = () => {
   return (
     <div className="intern" id="internship">
@@ -18,19 +18,19 @@ const Intern = () => {
       </div>
       <div className="intern-content">
         <div className="intern-content-left">
-          <span className="text-bold">Inspace Technologies</span> : My effort
+          <span className="text-bold">Inspace Technologies</span>: My effort
           involved in working with the technical team to write parts of code to
           automate a student information system, a partner with Chalo Schools
           Automated.
           <br />
           <br />
-          Total Number of Hours: 25
+          Total Number of hours: 45+
           <br />
           <br />
-          March 2020 - on going
+          May 2020 - June 2020(10hrs per week)
         </div>
         <div className="intern-content-right">
-          <span className="text-bold"> Goglint.co.in </span>: I am helping
+          <span className="text-bold"> Goglint.co.in</span>: I am helping
           goglint.co.in an aggregator for Car wash services: My role involved in
           analyzing the new feature where customers can come and schedule
           appointment a for car wash based on time, day and capacity
@@ -38,20 +38,16 @@ const Intern = () => {
           demand and smoothening of the demand.
           <br />
           <br />
-          Total Number of hours: 40+
-          <br />
-          <br />
-          March 2021 - on going
+          March 2021 - on going(3hrs per week)
         </div>
       </div>
       <div className="certificate">
         <p className="tye-content">
-          <span className="text-bold">Young Entrepreneur Course </span>- TIE
+          <span className="text-bold">Young Entrepreneur Course:</span> TIE
           india Attended 4 week sessions on Entrepreneurship and Leadership.
           Brainstormed ideas with the team to develop a business plan . Competed
-          at Regional Level competition to present our business plan.
+          at regional level competition to present our business plan.
           <br />
-          <br /> Total Number of hours: 120+ <br />
           <br /> Dec 2020 to Jan 2021
         </p>
         <img src={tye} alt="" className="tye-certificate box-shadow" />

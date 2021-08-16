@@ -1,11 +1,11 @@
 import React from "react";
 import "./Community.scss";
 import { Carousel } from "react-bootstrap";
-import a1 from "./hindu.jpeg";
-import a2 from "./vhs.jpeg";
-import n1 from "./newspaper.png";
-import b1 from "./0001.jpg";
-import b2 from "./0002.jpg";
+import a1 from "./hindu.webp";
+import a2 from "./vhs.webp";
+import n1 from "./newspaper.webp";
+import b1 from "./0001.webp";
+import b2 from "./0002.webp";
 
 const Community = () => {
   return (
@@ -30,15 +30,14 @@ const Community = () => {
           corporates and vendors to deliver Critical ICU ventilators, Oxy
           Meters, and ICU monitors for managing the critical care during
           Covid-19 Pandemic.
-          <br />
-          <br />
           <a
             href="https://www.thehindu.com/news/cities/chennai/chennai-youth-raises-funds-helps-two-hospitals-with-covid-19-relief/article34809804.ece"
             target="_blank"
-            className="community-anchor"
+            // className="community-anchor"
           >
-            Read More{" "}
+            Click Here
           </a>{" "}
+          to view the full article.
           <br />
           <br />
           <b> Total Number of hours : More than 150 hours</b>
@@ -49,7 +48,7 @@ const Community = () => {
               <img
                 className="d-block w-100 slider"
                 src={n1}
-                alt="Second slide"
+                alt="first slide"
               />
             </Carousel.Item>
 

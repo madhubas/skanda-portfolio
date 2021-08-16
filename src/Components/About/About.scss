@@ -19,7 +19,7 @@ $primary-color: #116466;
     align-items: center;
     justify-content: flex-start;
     &__text {
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 700;
       color: #fff;
     }
@@ -59,7 +59,7 @@ $primary-color: #116466;
       padding: 0px 10px;
       &__text {
         width: 100%;
-        padding: 30px;
+        padding: 3%;
         font-size: 15px;
       }
       &__image {
@@ -73,7 +73,7 @@ $primary-color: #116466;
     &-heading {
       padding: 10px;
       &__text {
-        font-size: 20px;
+        font-size: 22px !important;
       }
       &__line {
         margin-left: 10px;

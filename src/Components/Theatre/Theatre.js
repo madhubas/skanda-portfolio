@@ -1,15 +1,15 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import nisha1 from "./Nisha 1.jpeg";
-import nisha2 from "./Nisha 2.jpeg";
+import nisha1 from "./Nisha 1.webp";
+import nisha2 from "./Nisha 2.webp";
 import t1 from "./t1.jpeg";
-import t2 from "./t2.jpeg";
+import t2 from "./t2.webp";
 import t3 from "./t3.jpeg";
-import t4 from "./t4.jpeg";
+import t4 from "./t4.webp";
 
 const Theatre = () => {
   return (
-    <div>
+    <div id="theatre">
       <div style={{ backgroundColor: "#116466" }}>
         <div className="community-heading">
           <span
@@ -26,7 +26,7 @@ const Theatre = () => {
             awards. Right from my 4th grade I have associated myself with school
             plays. Shaped through workshops of Indian Debating Society,
             CreaShakti, Theater Nisha and World Story Telling institute. I have
-            been an active member of Theatre Nisha Drama troupe including
+            been an active member of Theatre Nisha Drama troupe involved in
             photographing and documenting the rehearsal process, participating
             in script reading and analysis, suggestions and assistance in music
             composition, and aiding with set and stage design.

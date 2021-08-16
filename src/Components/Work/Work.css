@@ -1,6 +1,6 @@
 .work_title {
   font-size: 30px;
-  color: #116466;
+  /* color: #116466; */
   text-align: center;
   text-transform: uppercase;
 }
@@ -16,6 +16,9 @@
 }
 
 @media (max-width: 530px) {
+  .work {
+    padding: 3%;
+  }
   .work_title {
     font-size: 20px;
   }

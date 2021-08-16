@@ -19,6 +19,7 @@ $black: #000;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
   }
   &-heading {
     display: flex;
@@ -27,7 +28,7 @@ $black: #000;
     height: 60vh;
     width: 100vw;
     background: linear-gradient(45deg, black, transparent),
-      url("./skanda-robotics2.jpg");
+      url("./skanda-robotics2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,21 +58,21 @@ $black: #000;
       font-size: 18px;
     }
     .anchors {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-size: 18px;
     }
     .content-anchor {
-      display: block;
-      background-color: $white;
-      color: $black;
+      // display: block;
+      // background-color: $white;
+      color: yellow;
+      overflow-y: hidden;
       text-decoration: none;
-      border: 1px solid black;
+      // border: 1px solid black;
       transition: all 0.3s;
-      padding: 8px 12px;
+      // padding: 8px 12px;
       margin: 5px;
       &:hover {
         background-color: transparent;
+        color: blanchedalmond;
         transition: all 0.3s;
         filter: invert(1);
       }
@@ -110,21 +111,24 @@ $black: #000;
       font-size: 18px;
     }
     .anchors {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-size: 18px;
     }
+
+    // .anchors > a :hover {
+    //   text-decoration: none;
+    //   color: blue;
+    // }
     .content-anchor {
-      display: block;
-      background-color: $white;
-      color: $black;
       text-decoration: none;
-      border: 1px solid black;
+      font-size: 18px;
+      color: yellow;
+      overflow-y: hidden;
+      // text-decoration: none;
+      // border: 1px solid black;
       transition: all 0.3s;
-      padding: 8px 12px;
-      margin: 5px;
       &:hover {
         background-color: transparent;
+        color: blanchedalmond;
         transition: all 0.3s;
         filter: invert(1);
       }

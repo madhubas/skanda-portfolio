@@ -6,34 +6,31 @@
   height: 80vh;
   width: 100%;
   background: linear-gradient(45deg, black, transparent),
-    url("./Skanda-rotaryleadershipconf.jpg");
+    url("./Skanda-rotaryleadershipconf.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 36px;
 }
 
 .main-1 {
-  text-align: center;
-  /* margin-top: 22%; */
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
 }
 .main-2 {
-  text-align: center !important;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-style: normal;
   font-weight: 800;
   font-size: 65px;
-
-  text-align: center;
 }
 .main-social {
   display: flex;
@@ -122,12 +119,9 @@
 }
 @media (max-width: 441px) {
   .main-1 {
-    text-align: center;
-
     font-size: 35px;
   }
   .main-2 {
-    text-align: center;
     font-size: 35px;
   }
 
@@ -146,7 +140,6 @@
 @media (max-width: 860px) {
   .main-1 {
     text-align: center;
-
     font-size: 35px;
   }
   .main-2 {
