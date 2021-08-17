@@ -24,9 +24,6 @@ const Intern = () => {
           Automated.
           <br />
           <br />
-          Total Number of hours: 45+
-          <br />
-          <br />
           May 2020 - June 2020(10hrs per week)
         </div>
         <div className="intern-content-right">
@@ -47,6 +44,9 @@ const Intern = () => {
           india Attended 4 week sessions on Entrepreneurship and Leadership.
           Brainstormed ideas with the team to develop a business plan . Competed
           at regional level competition to present our business plan.
+          <br />
+          <br />
+          Total Number of hours: 45+
           <br />
           <br /> Dec 2020 to Jan 2021
         </p>

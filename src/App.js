@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import Work from "./Components/Work/Work";
 import Theatre from "./Components/Theatre/Theatre";
 import Landing from "./Components/landing/Landing";
+import Gallery from "./Components/Gallery/Gallery";
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       <About />
       <Community />
       <Research />
+      <Gallery />
       <Intern />
+
       <Theatre />
-      <Work />
       <Footer />
     </div>
   );

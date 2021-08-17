@@ -17,7 +17,7 @@ const Theatre = () => {
             style={{ backgroundColor: "#fff" }}
           ></span>
           <h1 className="community-heading__text" style={{ color: "#fff" }}>
-            Theatre and Art{" "}
+            Theatre and Debate{" "}
           </h1>
         </div>
         <div className="community-first">

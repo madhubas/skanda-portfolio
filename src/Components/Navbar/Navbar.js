@@ -62,12 +62,12 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#theatre" onClick={toggleMenu}>
-                Theatre and Art
+                Theatre and Debate
               </a>{" "}
             </li>
             <li>
-              <a href="#knowledge" onClick={toggleMenu}>
-                Knowledge Sharing
+              <a href="#gallery" onClick={toggleMenu}>
+                Training And Certifications
               </a>{" "}
             </li>
           </ul>

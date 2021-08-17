@@ -6,6 +6,8 @@ import a2 from "./vhs.webp";
 import n1 from "./newspaper.webp";
 import b1 from "./0001.webp";
 import b2 from "./0002.webp";
+import n2 from "./indianexpress-photo1.webp";
+import n3 from "./skandamambalam-3.webp";
 
 const Community = () => {
   return (
@@ -55,7 +57,7 @@ const Community = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 slider"
-                src={a1}
+                src={n3}
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -64,6 +66,20 @@ const Community = () => {
                 className="d-block w-100 slider"
                 src={a2}
                 alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 slider"
+                src={n2}
+                alt="Fourth slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 slider"
+                src={a1}
+                alt="Fifth slide"
               />
             </Carousel.Item>
           </Carousel>

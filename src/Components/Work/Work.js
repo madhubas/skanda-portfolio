@@ -53,7 +53,7 @@ const Work = () => {
               date="Jan 2018"
               heading="Skanda Explaining his Temperature control project"
               content="Automation"
-              video="https://www.youtube.com/embed/_U9NHfBlUpc"
+              video="https://www.youtube.com/embed/KZbZ_Er95E4"
             />
           </Col>
         </Row>
