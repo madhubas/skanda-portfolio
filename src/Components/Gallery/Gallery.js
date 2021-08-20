@@ -35,12 +35,6 @@ const images = [
   },
 
   {
-    id: "5",
-    imageName: g5,
-    tag: "Certificate",
-  },
-
-  {
     id: "6",
     imageName: "https://www.youtube.com/embed/KZbZ_Er95E4",
     tag: "Videos",

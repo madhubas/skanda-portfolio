@@ -56,6 +56,11 @@ const Navbar = () => {
               </a>{" "}
             </li>
             <li>
+              <a href="#gallery" onClick={toggleMenu}>
+                Training And Certifications
+              </a>{" "}
+            </li>
+            <li>
               <a href="#internship" onClick={toggleMenu}>
                 Internship
               </a>{" "}
@@ -63,11 +68,6 @@ const Navbar = () => {
             <li>
               <a href="#theatre" onClick={toggleMenu}>
                 Theatre and Debate
-              </a>{" "}
-            </li>
-            <li>
-              <a href="#gallery" onClick={toggleMenu}>
-                Training And Certifications
               </a>{" "}
             </li>
           </ul>

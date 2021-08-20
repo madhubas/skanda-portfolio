@@ -40,9 +40,6 @@ const Community = () => {
             Click Here
           </a>{" "}
           to view the full article.
-          <br />
-          <br />
-          <b> Total Number of hours : More than 150 hours</b>
         </div>
         <div className="community-first__carousel box-shadow">
           <Carousel variant="dark">
@@ -127,7 +124,7 @@ const Community = () => {
           <b>
             {" "}
             “Little flower Matriculation and Domestic workers association” with
-            Math and Science labs.(More than 250 hours)
+            Math and Science labs.
           </b>
           <br />
           <br />
