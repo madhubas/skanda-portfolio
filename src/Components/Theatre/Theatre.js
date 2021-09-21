@@ -6,7 +6,8 @@ import t1 from "./t1.jpeg";
 import t2 from "./t2.webp";
 import t3 from "./t3.jpeg";
 import t4 from "./t4.webp";
-
+import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
 const Theatre = () => {
   return (
     <div id="theatre">
@@ -33,6 +34,8 @@ const Theatre = () => {
           </div>
 
           <div className="community-first__carousel box-shadow">
+            <SimpleReactLightbox>
+              <SRLWrapper>
             <Carousel variant="dark">
               <Carousel.Item>
                 <img
@@ -77,6 +80,8 @@ const Theatre = () => {
                 />
               </Carousel.Item>
             </Carousel>
+            </SRLWrapper>
+            </SimpleReactLightbox>
           </div>
         </div>
       </div>
