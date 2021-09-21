@@ -8,7 +8,8 @@ import b1 from "./0001.webp";
 import b2 from "./0002.webp";
 import n2 from "./indianexpress-photo1.webp";
 import n3 from "./skandamambalam-3.webp";
-
+import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
 const Community = () => {
   return (
     <div className="community" id="communityservice">
@@ -41,7 +42,10 @@ const Community = () => {
           </a>{" "}
           to view the full article.
         </div>
+
         <div className="community-first__carousel box-shadow">
+          <SimpleReactLightbox>
+            <SRLWrapper>
           <Carousel variant="dark">
             <Carousel.Item>
               <img
@@ -80,6 +84,8 @@ const Community = () => {
               />
             </Carousel.Item>
           </Carousel>
+          </SRLWrapper>
+          </SimpleReactLightbox>
         </div>
       </div>
       {/* second division */}
@@ -92,7 +98,9 @@ const Community = () => {
 
       <div className="community-second">
         <div className="community-second__carousel box-shadow">
-          <Carousel variant="dark" className="box-shadow">
+       <SimpleReactLightbox>
+         <SRLWrapper>
+          <Carousel variant="dark" className="box-shadow" >
             <Carousel.Item>
               <img
                 className="d-block w-100 slider"
@@ -100,7 +108,7 @@ const Community = () => {
                 alt="Second slide"
               />
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item >
               <img
                 className="d-block w-100 slider"
                 src={b2}
@@ -108,6 +116,8 @@ const Community = () => {
               />
             </Carousel.Item>
           </Carousel>
+          </SRLWrapper>
+          </SimpleReactLightbox>
         </div>
         <div className="community-second__content">
           {/* <h3>a. Two community Schools</h3> */}I crave acquiring knowledge
